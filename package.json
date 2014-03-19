@@ -8,10 +8,16 @@
   "dependencies": {
     "express": "3.4.4",
     "jade": "*",
-    "nconf": "~0.6.9"
+    "nconf": "~0.6.9",
+    "winston": "~0.7.2",
+    "mongoose": "~3.8.8"
   },
   "devDependencies": {
     "supertest": "~0.9.0",
-    "mocha": "~1.18.0"
+    "mocha": "~1.18.0",
+    "grunt": "~0.4.4",
+    "grunt-cafe-mocha": "~0.1.12",
+    "grunt-jscoverage": "0.0.3",
+    "grunt-env": "~0.4.1"
   }
 }
